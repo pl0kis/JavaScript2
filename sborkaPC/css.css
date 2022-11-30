@@ -1,0 +1,391 @@
+
+body{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.button1{
+    position: absolute;
+    border-radius: 50px;
+    padding: 10px,30px;
+    gap: 10px;
+    height: 44px;
+    width: 186px;
+    background:linear-gradient(94.26deg, #C89AFC 9.51%, #7C6AFA 90.23%);
+    color:white;
+    border: none;
+    cursor: pointer;
+
+}
+
+
+.button2{
+    border-radius: 50px;
+    padding: 10px,30px;
+    gap: 10px;
+    height: 44px;
+    width: 186px;
+    background: linear-gradient(94.78deg, #DF5950 11.19%, #451046 93.72%);
+    color:white;
+    border: none;
+    cursor: pointer;
+}
+
+.headys{
+    margin-top: -8px;
+}
+
+.button1{
+    margin-left: 1580px;
+    margin-top: 15px;
+    
+
+}
+
+
+.header{
+    
+        color:white;
+        display: relative;
+        height: 900px; /* Высота шапки */
+        background: url(Photo/main-screen__bgc.png) no-repeat center bottom;
+    
+    
+}
+
+.header_nav{
+    margin-left: 608px;
+    margin-top: -30px;
+}
+
+a{
+    color: white;
+    margin-left: 10px;
+    
+    align-content: center;
+    text-decoration: none;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-style: normal;
+    font-size: 16px;
+    padding-right: 20px;
+}
+
+.logo{
+    margin-left: 40px;
+    margin-top: 20px;
+}
+
+h1{
+    color:white;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 64px;
+    margin-top: 270px;
+    margin-left: 312px;
+}
+
+h1,h2,h3,h5{
+    color:white;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 140%;
+}
+h3{
+    color:white;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 140%;
+}
+.aboutText p{
+    color:white;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 160%;
+}
+
+.aboutText{
+    margin-left: 972px;
+}
+.about{
+    margin-top: -270px;
+    margin-left: 312px;
+}
+
+
+
+.data{
+    margin-left: 312px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 500px;
+    margin-bottom: 75px;
+
+}
+.button2{
+    margin-left:312px ;
+    margin-top: 40px;
+}
+
+
+.timer-item{
+    width: 100px;
+    height: 110px;
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    flex-direction: column;
+   
+   
+    background: #494848;
+}
+
+.timer-count{
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.timer-text{
+    opacity: 0.4;
+}
+
+.processWork{
+    margin-left: 290px;
+}
+
+.titleWOrk{
+    display: flex;
+    padding-right: 20xp;
+}
+.processWork p{
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 160%;
+color: rgb(151, 149, 149);
+margin-left: 15px;
+}
+
+.navInfo{
+    display: flex;
+    margin-left: 300px;
+
+}
+
+h4{
+    color:white;
+    font-size: 36px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-style: normal;
+    padding-right: 180px; 
+    /*!!!!!!!!!!!!!!!!!!!!!!!!*/
+}
+
+.line{
+    margin-left: 300px;
+    width: 1296px;
+    border-bottom: solid 2px  #C89AFC;
+}
+
+.navText{
+    margin-left: 300px;
+    
+    display: flex;
+}
+
+.navText p {
+    color:rgb(151, 149, 149);
+    padding-right: 65px;
+    font-size: 14px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.MyTeam{
+    margin-left: 286px;
+}
+.MyTeamTittle{
+    display: flex;
+}
+
+.team_item{
+    display: flex;
+    margin-left: 120px;
+    padding-left: 20px;
+    
+    
+}
+
+
+.itemTeam{
+    padding-right: 200px;
+    
+}
+.butBiog:hover{
+    /* background: linear-gradient(94.78deg, #DF5950 11.19%, #451046 93.72%); */
+    /* transform: scale(1.1) ; */
+}
+.teamtext{
+    color:rgb(151, 149, 149)
+    
+}
+
+.teamname{
+    color:white;
+    font-size: 24px;
+    padding-top:40px;
+    padding-left: 7px;
+    padding-bottom: 15px;
+    margin-left: 5px;
+}
+
+.butBiog{
+    border: 1px solid #FFFFFF;
+    background-color: black;
+    border-radius: 50px;
+    padding: 10px 30px;
+    gap: 10px;
+    color:white;
+    cursor: pointer;
+}
+.butBiog{
+    margin-top: 30px;
+    margin-left: 32px;
+}
+
+.zakaz{
+    margin-top: 200px;
+}
+
+h7{
+    color:white;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 140%;
+    
+    margin-left: 570px;
+}
+.zakaz p{
+    color:rgb(151, 149, 149);
+    margin-left: 760px;
+}
+
+.zakaz button{
+    margin-left: 860px;
+}
+
+.itemSocial{
+    margin-top: 41px;
+    margin-left: 774px;
+    
+}
+.itemSocial a{
+ padding-right: 30px;
+ 
+}
+
+
+.down{
+    margin-top: 200px;
+}
+
+
+/* Модальное окно */
+
+
+.modal_header{
+    color:white;
+    font-weight: 700;
+    font-size: 4.8rem;
+    line-height: 140%;
+    margin-bottom: 1rem;
+}
+.modal_subheader{
+    margin-bottom: 2.8rem;
+    font-size: 1.6rem;
+    line-height: 160%;
+    opacity: 0.4;
+
+}
+
+.modal_subheader {
+    color:white;
+}
+
+.modal{
+    position: fixed;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    overflow-x: hidden;
+    overflow-y: auto;
+    z-index: 10;
+    padding: 3rem 0;
+    margin-left: 420px;
+    display: none;
+}
+
+.modal_inner{
+    width: 66.3rem;
+    padding: 9rem,9.5rem;
+    background: #2c2c22;
+    text-align: center;
+    height: 40rem;
+}
+
+.modal_elements{
+    width: 45.4rem;
+    margin: 0 auto;
+}
+
+.modal_item{
+    
+    height: 4.4rem;
+    
+    
+}
+
+.modal_input{
+    width: 100%;
+    height: 100%;
+    border-radius:5rem;
+   
+    font-size: 14px;
+    line-height: 160%;
+    color: black;
+    opacity: 0.8;
+    padding-left:30px ;
+}
+
+.modal_item:not(:last-child){
+    margin-bottom: 1.8rem;
+}
+.modal_close{
+    width: 5rem;
+    height: 5rem;
+}
+
+.noscroll{
+    overflow: hidden;
+    height: 100%;
+}
+
+.button_main{
+    border-radius: 50px;
+    padding: 10px,30px;
+    gap: 10px;
+    height: 44px;
+    width: 186px;
+    background: linear-gradient(94.78deg, #DF5950 11.19%, #451046 93.72%);
+    color:white;
+    border: none;
+    cursor: pointer;
+}

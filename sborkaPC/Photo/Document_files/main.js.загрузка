@@ -1,0 +1,41 @@
+
+let titles 
+
+const main = document.querySelector('.statia')
+async function getComment(){
+    const respons = await fetch("https://gorest.co.in/public-api/posts?page=10")
+    const data = await respons.json()
+    console.log(data)
+    console.log(data.data) // Массив заголовков 
+
+    return {arrayH:data.data} 
+}
+
+// https://gorest.co.in/public-api/posts/1
+
+const createLi = async () =>{
+    const arrayH = await getComment()
+    const ul = document.querySelector('.urls')
+    let urlHTML = ""
+
+    for(let i = 0;i<arrayH.arrayH.length;i++){
+        urlHTML +=`
+        <li>
+        <a class="aId" href="post.html?id${arrayH.arrayH[i].id}">
+            Страница${i}
+        </a>
+        </li>`
+        ul.innerHTML = urlHTML
+    }
+}
+
+createLi()
+
+function openLi(){
+    const allId = document.querySelectorAll('.aId')
+    for(let i = 0;i<allId.length;i++){
+        console.log(allId[i])
+    }
+}
+
+openLi()
